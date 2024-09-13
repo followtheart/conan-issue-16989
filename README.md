@@ -2,8 +2,8 @@
 here is demo of conan-issue-16989
 
 The demo has two part:
-- The directory `package`,which is a dll(`dll/libxxx.dll`) with data(`data/data.dat`)
-- The directory `consumer`,which is a `cmake_exe` package;and will using the package `libxxx`
+- The directory `package`,which contains a dll(`dll/libxxx.dll`) with data(`data/data.dat`)
+- The directory `consumer`,which contains a `cmake_exe` package and will using the package `libxxx`
 - The directory `cmake-conan-demo`,which is a `cmake_exe` package;and using `cmake-conan` to cooperate with `cmake`
 - To reproduce my case:
 
