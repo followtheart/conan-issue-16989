@@ -12,7 +12,7 @@ class consumerRecipe(ConanFile):
     exports_sources = "CMakeLists.txt", "src/*"
 
     def requirements(self):
-        self.requires("libxxx/[>=1.0.0]")    # here ,the target pacakge
+        self.requires("libtorch/[>=1.0.0]")    # here ,the target pacakge
 
     def layout(self):
         cmake_layout(self)

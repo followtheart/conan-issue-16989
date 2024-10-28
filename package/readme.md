@@ -1,5 +1,5 @@
 
-create the `libxxx` package with data
+create the `libtorch` package with data
 
 ```
 cd package

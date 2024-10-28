@@ -1,4 +1,4 @@
-# consumer package of `package/libxxx`
+# consumer package of `package/libtorch`
 
-- `find_package(libxxx)`  # not working  `conan build` 
-- `include(libxxxConfig)`   # working in `conan build .` 
+- `find_package(libtorch)`  # not working  `conan build` 
+- `include(libtorchConfig)`   # working in `conan build .` 
